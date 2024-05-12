@@ -50,8 +50,8 @@ if [[ -r nvars.py ]]; then
     rm nvars.py
   else 
     mv nvars.py vars.py
-    IFS= read -rp "input api_id :" vars[api_id]
-    IFS= read -rp "input api_hash :" vars[api_hash]
+    IFS= read -rp "input api_id (123456789) :" vars[api_id]
+    IFS= read -rp "input api_hash ('a1b2c3d4e5f6') :" vars[api_hash]
   fi
 
   for el in "${!vars[@]}"; do
