@@ -9,7 +9,7 @@ wget -qO vars.enc 		'https://github.com/yupirex/GG/releases/latest/download/vars
 
 if command -v python3 &>/dev/null ; then echo apt install python3 -y; fi
 if command -v openssl &>/dev/null ; then echo apt install openssl-tool -y; fi
-pip3 install -r requirements.txt --no-cache-dir --no-warn-script-location --disable-pip-version-check --upgrade"
+pip3 install -r requirements.txt --no-cache-dir --no-warn-script-location --disable-pip-version-check --upgrade
 
 IFS= read -rp "unpack password :" password
 
