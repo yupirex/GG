@@ -1,8 +1,7 @@
 #!/usr/bin/bash
 pkg update
-pkg upgrade
+pkg upgrade -y
 
-pkg install python
-pkg install python-pip
+pkg install -y python python-pip termux-api
 pip3 install telethon
-pkg install termux-api
+
