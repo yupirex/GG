@@ -1,10 +1,13 @@
 #!/usr/bin/bash
-apt update
-apt full-upgrade -y 
-
-apt install -y python python-pip termux-api
+pkg update
+pkg upgrade 
+pkg i -y python3 python-pip 
 pip3 install telethon
 
-termux-wake-lock
+#termux-setup-storage
+#termux-wake-lock
 
 # pkg i wget ncurses-utils python openssl
+
+pkg autoclean
+pkg clean
