@@ -1,16 +1,4 @@
 # GG
 
 
-
-
-
-
-api_hash вводить в одинарных кавычках
-
-Пример:
-
-dfsodjfsdfsd
-
-Ввести
-
-'dfsodjfsdfsd'
+`curl -s https://raw.githubusercontent.com/yupirex/GG/refs/heads/main/install.sh | bash`
