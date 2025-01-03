@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 pkg update
-pkg upgr -y
+pkg upgrade -y
 
-pkg i -y python python-pip termux-api
+pkg install -y python python-pip termux-api
 pip3 install telethon
 
 termux-wake-lock
